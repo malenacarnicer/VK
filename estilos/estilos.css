@@ -1,0 +1,161 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	    background: beige;
+	    font-family: 'Ibarra Real Nova', serif;
+  		 background-image: linear-gradient(to bottom, beige , blueviolet);
+
+	}
+
+header{
+	color: blanchedalmond;
+	text-align: center;
+	
+} 
+
+li {
+	color: black;
+	font-weight: bold;
+	font-size: 25px;
+	background-color: beige;
+	list-style: disc;
+    font-family: 'Noto Serif Display', serif;
+    margin: 12px;
+    }
+
+.cabecera{
+	width: 70%;
+	margin: 0px auto;
+	font-size: 25px;
+}
+
+
+
+.menu{
+	text-decoration: none;
+	text-align: center;
+	border: 1px beige;
+}
+
+ 		
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #03afff;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.grid-item:hover {
+  filter: opacity(0.9);
+  transform: scale(1.04);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 20px;
+  padding: 20px;
+  grid-auto-flow: dense;
+}
+
+
+img{
+
+	width: 97%;
+
+}
+
+.row{
+
+	display: flex;
+	padding: 5px;
+	flex-wrap: wrap;
+}
+
+.column{
+
+	flex: 25%;
+	padding: 5px;
+}
+
+.column img{
+	margin-top: 5px;
+}
+
+p {
+	font-family: 'Ibarra Real Nova', serif;
+	font-weight: 900;
+	text-align: right;
+	width: 540px;
+	height: 200px;
+	padding: 20px 20px;
+	font-size: 15px;
+	line-height: 1.5;
+	box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+	border-radius: 23px;
+	text-align: left;
+	background-color: #EDFF67;
+	padding: 1em 2em;
+	transition-property: background color;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
+	transition-delay: 0s;
+}
+
+ p:hover{
+	background-color: 	gray;
+
+}
+
+}
+
+.parrafo img{
+	width: 310px;
+	border-radius: 1px;
+	margin-right: 15px;
+
+}
+
+footer{
+	padding-top: 20px;
+	padding-right: 15px;
+	border: 1px solid black;
+}
+
+@media (max-width: 800px){
+	.column{
+		flex: 50%;
+	}
+}
+
+
+
+@media (max-width: 800px){
+	.column{
+		flex: 100%;
+	}
+}
+
+@media (min-width: 600px) {
+  .wide {
+    grid-column: span 2;
+  }
+
+  .tall {
+    grid-row: span 2;
+  }
+}
