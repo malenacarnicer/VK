@@ -28,10 +28,14 @@ li {
     margin: 12px;
     }
 
+
 .cabecera{
 	width: 70%;
 	margin: 0px auto;
 	font-size: 25px;
+	background-color: blanchedalmond;
+	font-family:'Ibarra Real Nova', serif ;
+
 }
 
 
@@ -42,7 +46,9 @@ li {
 	border: 1px beige;
 }
 
- 		
+	
+
+
 
 .grid-item {
   display: flex;
@@ -79,77 +85,7 @@ img{
 
 }
 
-.imgbg1{
-	background-image: url('https://images.unsplash.com/photo-1590071089561-2087ff1fc418?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHBob3RvZ3JhcGh5fGVufDB8fDB8fA%3D%3D&w=1000&q=80');
-}
 
-.imgbg2{
-
-	background-image: url(https://wl-brightside.cf.tsp.li/resize/728x/jpg/150/8c5/e3bea65133961be395ca6fa206.jpg);
-}
-
-.imgbg3{
-	background-image: url(https://www.thewanderinglens.com/wp-content/uploads/2018/10/Lisa-Michele-Burns-Print-Portfolio-42-1.jpg);
-}
-
-.imgbg4{
-
-	background-image: url(https://mymodernmet.com/wp/wp-content/uploads/2019/09/agora-awards-2019-photography-28.jpg);
-}
-
-.imgbg5{
-
-	background-image: url(https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-}
-
-.imgbg6{
-
-	background-image: url(https://images.pexels.com/photos/10402422/pexels-photo-10402422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-}
-
-.imgbg7{
-	background-image: url(https://images.pexels.com/photos/1990241/pexels-photo-1990241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-}
-
-.imgbg8{
-
-	background-image: url(https://images.pexels.com/photos/13007364/pexels-photo-13007364.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-}
-
-.imgbg9{
-
-	background-image: url(https://images.pexels.com/photos/4156998/pexels-photo-4156998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-}
-
-.imgbg10{
-
-	background-image: url(https://images.pexels.com/photos/12488382/pexels-photo-12488382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-}
-
-.imgbg11{
-
-	background-image: url(https://images.pexels.com/photos/13058769/pexels-photo-13058769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-}
-
-.imgbg12{
-
-	background-image: url(https://images.pexels.com/photos/11858609/pexels-photo-11858609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-}
-
-.imgbg13{
-
-	background-image: url(https://images.pexels.com/photos/12916358/pexels-photo-12916358.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-}
-
-.imgbg14{
-
-	background-image: url(https://images.pexels.com/photos/10081060/pexels-photo-10081060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-}
-
-.imgbg15{
-
-	background-image: url(https://images.pexels.com/photos/13046097/pexels-photo-13046097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-}
 
 
 .row{

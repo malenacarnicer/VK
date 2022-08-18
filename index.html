@@ -13,8 +13,12 @@
 
 	   <title>Victoria Kustermann</title>
 
+
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
 	   <link rel="stylesheet" href="estilos/estilos.css" />
-    <link href="css/bootstrap.min.css" rel="stylesheet">
 
   </head>
 
@@ -28,41 +32,81 @@
 
 <nav class="menu">
 
-		<ul>	
+		<ul class="nav nav-pills nav-fill">	
+      <li class="nav-item">
+        
+        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
 
-			<a href="#">Inicio</a>
+      </li>
+	   
+      <li class="nav-item">
+
+        <a class="nav-link" href="./secciones/sobremi.html">Sobre mí</a>
+
+      </li>
+
+      <li class="nav-item">
+
+        <a class="nav-link" href="./secciones/galeria.html">Galería</a>
+
+      </li>
 	
-			<a href="./secciones/sobremi.html">Sobre mí</a>
-	
-			<a href="./secciones/galeria.html">Galería</a>
-	
-			<a href="./secciones/opiniones.html">Opiniones</a>
-	
-			<a href="./secciones/contacto.html">Contacto</a>
+      <li class="nav-item">
+
+			 <a class="nav-link" href="./secciones/opiniones.html">Opiniones</a>
+
+      </li>
+
+      <li class="nav-item">
+
+        <a class="nav-link" href="./secciones/contacto.html">Contacto</a>
+
+      </li>
 		
 		</ul>
 	</div>
 </nav>
 
 <main>
-	<div class="grid-container">
-    <div class="grid-item tall imgbg1"></div>
-    <div class="grid-item imgbg2"></div>
 
-    <div class="grid-item wide imgbg3"></div>
-    <div class="grid-item imgbg4"></div>
-    <div class="grid-item imgbg5"></div>
-    <div class="grid-item imgbg6"></div>
-    <div class="grid-item imgbg7"></div>
-    <div class="grid-item imgbg8"></div>
-    <div class="grid-item tall wide imgbg9"></div>
-    <div class="grid-item imgbg10"></div>
-    <div class="grid-item imgbg11"></div>
-    <div class="grid-item imgbg12"></div>
-    <div class="grid-item imgbg13"></div>
-    <div class="grid-item imgbg14"></div>
-    <div class="grid-item imgbg15"></div>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
   </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./imagenes/cantante.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./imagenes/chicadenegro.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./imagenes/familia.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./imagenes/rosslynch.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./imagenes/parejamoto.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./imagenes/mb.jpeg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
 </main>
 	
@@ -73,7 +117,8 @@
 		 </address>
 	</footer>
 
-  <script src="js/bootstrap.bundle.min.js"></script>
+ <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
 </body>
 </html>
