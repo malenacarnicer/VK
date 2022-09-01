@@ -27,8 +27,8 @@ ul{
 li {
 	color: black;
 	font-weight: bold;
-	font-size: 25px;
-	list-style: disc;
+	font-size: 20px;
+	list-style: none;
     font-family: 'Noto Serif Display', serif;
     margin: 12px;
     }
