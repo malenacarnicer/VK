@@ -38,6 +38,13 @@ li {
 	font-family: $font-family_2;
 	margin: 12px;
 }
+
+
+.dropdown-menu[dropdown-menudata-bs]{
+	top: 100%
+	left -95%
+
+}
 .cabecera {
 	width: 70%;
 	margin: 0px auto;
@@ -81,7 +88,7 @@ img {
 	width: 78%;
 	margin: auto;
 }
-.row {
+.fila {
 	display: flex;
 	padding: 5px;
 	flex-wrap: wrap;
@@ -126,6 +133,7 @@ footer {
 	padding-top: 20px;
 	padding-right: 15px;
 	border: 1px solid black;
+	
 }
 @media (max-width: 800px) {
 	.column {
